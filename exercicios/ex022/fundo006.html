@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
+            background-size: cover; (De acordo com a regra era pra funcionar, mas ate o momento não. Teremos que retira-lo!)
+            background-attachment: fixed;*/
+
+            /* Shorthand do Background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
+
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -31,7 +41,9 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, cupiditate reiciendis, eveniet exercitationem ipsa nulla ducimus voluptatibus, repellat asperiores beatae esse. Eum voluptate in dolore earum autem doloribus quam hic Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus corporis nostrum sint ipsum aliquam repudiandae. Distinctio fuga quaerat et placeat, ex maxime tempore sunt voluptatibus. Sint maxime corrupti asperiores vel? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad laudantium repellat doloribus ab assumenda aut quae reiciendis suscipit porro! Id ad aliquam consequuntur accusamus molestias corrupti eum molestiae iusto itaque.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, cupiditate reiciendis, eveniet exercitationem ipsa nulla ducimus voluptatibus, repellat asperiores beatae esse. Eum voluptate in dolore earum autem doloribus quam hic Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus corporis nostrum sint ipsum aliquam repudiandae. Distinctio fuga quaerat et placeat, ex maxime tempore sunt voluptatibus. Sint maxime corrupti asperiores vel? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad laudantium repellat doloribus ab assumenda aut quae reiciendis suscipit porro! Id ad aliquam consequuntur accusamus molestias corrupti eum molestiae iusto itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quidem sapiente quae repellat. Amet et dolorum maxime nisi delectus ex blanditiis error cupiditate porro dicta, iste aperiam soluta eum aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex architecto deserunt, temporibus animi similique quae doloremque pariatur vero laudantium consequuntur quibusdam eius fugiat aut nihil minus incidunt vel eligendi illum?</p>
+        <P>dipisicing elit. Provident, cupiditate reiciendis, eveniet exercitationem ipsa nulla ducimus voluptatibus, repellat asperiores beatae esse. Eum voluptate in dolore earum autem doloribus quam hic Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus corporis nostrum sint ipsum aliquam repudiandae. Distinctio fuga quaerat et placeat, ex maxime tempore sunt voluptatibus. Sint maxime corrupti asperiores vel? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad laudantium repellat doloribus ab assumenda aut quae reiciendis suscipit porro! Id ad aliquam consequuntur accusamus molestias corrupti eum molestiae iusto itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quidem sapiente quae repellat. Amet et dolorum maxime nisi delectus ex blanditiis error cupiditate porro dicta, iste aperiam soluta eum aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex architecto deserunt, temporibus animi similique quae doloremque pariatur vero laudantium consequuntur quibusdam eius fugiat aut nihil minus incidunt vel eligendi illum?</P>
+        <P>dipisicing elit. Provident, cupiditate reiciendis, eveniet exercitationem ipsa nulla ducimus voluptatibus, repellat asperiores beatae esse. Eum voluptate in dolore earum autem doloribus quam hic Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus corporis nostrum sint ipsum aliquam repudiandae. Distinctio fuga quaerat et placeat, ex maxime tempore sunt voluptatibus. Sint maxime corrupti asperiores vel? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad laudantium repellat doloribus ab assumenda aut quae reiciendis suscipit porro! Id ad aliquam consequuntur accusamus molestias corrupti eum molestiae iusto itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quidem sapiente quae repellat. Amet et dolorum maxime nisi delectus ex blanditiis error cupiditate porro dicta, iste aperiam soluta eum aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex architecto deserunt, temporibus animi similique quae doloremque pariatur vero laudantium consequuntur quibusdam eius fugiat aut nihil minus incidunt vel eligendi illum?dipisicing elit. Provident, cupiditate reiciendis, eveniet exercitationem ipsa nulla ducimus voluptatibus, repellat asperiores beatae esse. Eum voluptate in dolore earum autem doloribus quam hic Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus corporis nostrum sint ipsum aliquam repudiandae. Distinctio fuga quaerat et placeat, ex maxime tempore sunt voluptatibus. Sint maxime corrupti asperiores vel? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad laudantium repellat doloribus ab assumenda aut quae reiciendis suscipit porro! Id ad aliquam consequuntur accusamus molestias corrupti eum molestiae iusto itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quidem sapiente quae repellat. Amet et dolorum maxime nisi delectus ex blanditiis error cupiditate porro dicta, iste aperiam soluta eum aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex architecto deserunt, temporibus animi similique quae doloremque pariatur vero laudantium consequuntur quibusdam eius fugiat aut nihil minus incidunt vel eligendi illum?</P>
     </main>
 </body>
 </html>
